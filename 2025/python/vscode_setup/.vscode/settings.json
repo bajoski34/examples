@@ -14,8 +14,8 @@
     "python.testing.pytestEnabled": true,
     "python.testing.unittestEnabled": false,
     "python.testing.cwd": "${workspaceFolder}/tests",
-    "python.testing.pytestPath": "${workspaceFolder}/.venv/bin/pytest",
+    "python.testing.pytestPath": "${workspaceFolder}/env/bin/pytest",
     "python.testing.autoTestDiscoverOnSaveEnabled": true,
     "editor.mouseWheelZoom": true,
-    "terminal.integrated.mouseWheelZoom": true
+    "terminal.integrated.mouseWheelZoom": true,
 }
