@@ -33,6 +33,7 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.tabSizing": "shrink",
     "workbench.settings.editor": "json",
+    "workbench.sideBar.location": "right",
     // Editor settings
     "ruff.importStrategy": "useBundled",
     "editor.defaultFormatter": "charliermarsh.ruff",
