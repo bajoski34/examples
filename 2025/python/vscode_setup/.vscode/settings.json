@@ -9,7 +9,7 @@
     ],
     "python.envFile": "${workspaceFolder}/.env",
     "python.terminal.activateEnvironment": true,
-    "python.defaultInterpreterPath": "${workspaceFolder}/.env/bin/python",
+    "python.defaultInterpreterPath": "${workspaceFolder}/env/bin/python",
     // Test settings
     "python.testing.pytestEnabled": true,
     "python.testing.unittestEnabled": false,
