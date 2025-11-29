@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>WebSocket Demo</h2>
+    <input id="msg" placeholder="Type a message" />
+    <button onclick="sendMessage()">Send</button>
+
+    <pre id="log"></pre>
+
+    <script>
+      const log = (msg) => {
+        document.getElementById("log").textContent += msg + "\n";
+      };
+
+
+      const socket = new WebSocket("ws://localhost:8080");
+
+      socket.addEventListener("open", () => log("Connected"));
+
+      socket.addEventListener("message", (event) => {
+        log("From server: " + event.data);
+      });
+
+      function sendMessage() {
+        const value = document.getElementById("msg").value;
+        socket.send(value);
+      }
+    </script>
+  </body>
+</html>
