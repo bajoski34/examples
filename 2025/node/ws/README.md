@@ -7,10 +7,10 @@ Simpler Terms: WebSockets allow the client and server to send data to each other
 Websocket only handle text and binary s JSON can be sent manually.
 
 ```js
-// For the client
+// For the client.
 socket.send(JSON.stringify({ type: "chat", text: "Hello" }));
 
-// Recieved by the server
+// Recieved by the server.
 socket.on("message", (raw) => {
   const msg = JSON.parse(raw);
   console.log(msg.type, msg.text);
