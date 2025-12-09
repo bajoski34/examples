@@ -18,3 +18,7 @@ bunx cowsay 'Hello, world!'   # execute a package
 
 You can find an exhstive list [here](https://bun.com/docs/runtime/templating/init#project-templates)
 
+## Accessing Environment Variables
+```shell
+Bun.env.NVM_BIN
+```
